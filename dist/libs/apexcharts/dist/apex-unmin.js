@@ -13063,7 +13063,7 @@
                         value: function (t, e) {
                             var i = this.w,
                                 a = i.config.series[e];
-                            return n(n({}, i.config.series[e]), {}, { name: t.name ? t.name : a && a.name, color: t.color ? t.color : a && a.color, type: t.type ? t.type : a && a.type, data: t.data ? t.data : a && a.data });
+                            return n(n({}, i.config.series[e]), {}, { name: t.name ? t.name : a && a.name, color: t.color ? t.color : a && a.color, type: t.type ? t.type : a && a.type, data: t.data ? t.data : a && a.data, percentage: t.percentage ? t.percentage : a && a.percentage });
                         },
                     },
                     {
